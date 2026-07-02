@@ -4,6 +4,11 @@ Overview
 This project implements a Theremin-like instrument using an STM32 Nucleo-F401RE and a VL6180X proximity sensor. The distance of the hand from the sensor controls the note frequency, and the user button on the Nucleo changes the waveform (sine / triangle / square / saw).
 The audio signal is generated as PWM, then converted to an analog-like audio signal using a low-pass RC filter, and finally sent to a powered speaker.
 
+Demo Videos
+- [Final project demonstration](https://youtu.be/_6XN4k_lHYg)
+- [PWM control with hand distance](https://youtu.be/aEjlqiktlC4)
+- [YouTube playlist](https://www.youtube.com/playlist?list=PLb6JbbSLS7Bw)
+
 Requirements
 - Board: Nucleo-F401RE (STM32F401)
 - Sensor: VL6180X shield/module (I2C address 0x29)
@@ -67,29 +72,4 @@ Hardware
 - The PWM output is filtered using a two-stage RC low-pass filter on a breadboard.
 - The filtered output is connected to a powered speaker through the AUX tip.
 - In the lab there was no jack breakout, so the connection was made directly using the AUX cable tip.
-
-Project Folder Contents
-- Theremin_VL6180X_PWM
-  Full STM32CubeIDE project folder
-
-- 1 - PWM changing with distance (explanation).mp4
-  Demo video with explanation showing PWM change when hand distance changes.
-
-- 2 - PWM changing with distance.mp4
-  Demo video showing PWM variation with hand movement (no explanation).
-
-- 3 - The final instrument (explanation).mp4
-  Full demo of the final theremin-like instrument with explanation.
-
-- 4 - The final instrument.mp4
-  Demo of the final working instrument (no explanation).
-
-- Theremin_Project_Report.pdf
-  Final project report.
-
-- pwm1.png, pwm2.png
-  Oscilloscope captures of the PWM output (reference condition and while moving the hand).
-
-- filter1.png, filter2.png
-  Photos of the RC low-pass filter built on the breadboard.
 
