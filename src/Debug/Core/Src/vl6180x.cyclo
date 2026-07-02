@@ -1,0 +1,7 @@
+../Core/Src/vl6180x.c:12:26:wr8	1
+../Core/Src/vl6180x.c:18:26:rd8	1
+../Core/Src/vl6180x.c:24:26:rd16	2
+../Core/Src/vl6180x.c:36:13:load_settings	40
+../Core/Src/vl6180x.c:85:6:VL6180X_Init	6
+../Core/Src/vl6180x.c:107:9:VL6180X_ReadRangeStatus	2
+../Core/Src/vl6180x.c:114:6:VL6180X_ReadRangeSingle	10

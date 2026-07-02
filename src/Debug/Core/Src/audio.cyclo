@@ -1,0 +1,5 @@
+../Core/Src/audio.c:18:13:build_tables	4
+../Core/Src/audio.c:42:6:Audio_Init	1
+../Core/Src/audio.c:55:6:Audio_SetWaveform	2
+../Core/Src/audio.c:60:6:Audio_SetFreqHz	5
+../Core/Src/audio.c:72:6:Audio_Tick	4
